@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Política de privacidad de Secret Santa y opciones para solicitar la eliminación de una cuenta.">
+  <title>Política de privacidad | Secret Santa</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, sans-serif; background: #f9f2e5; color: #153a2e; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    header { background: #153a2e; color: #fffcf4; border-bottom: 4px solid #d6ac53; }
+    .wrap { width: min(100% - 2.5rem, 44rem); margin: auto; }
+    header .wrap { padding: 2.5rem 0 2.25rem; }
+    .brand { color: #f5d594; font-weight: 700; margin: 0; }
+    h1 { font-size: clamp(2rem, 6vw, 3rem); line-height: 1.1; margin: .65rem 0; }
+    main { padding: 1.5rem 0 3rem; line-height: 1.65; }
+    h2 { line-height: 1.2; margin-top: 1.9rem; }
+    li + li { margin-top: .6rem; }
+    a { color: #8a2638; text-underline-offset: .16em; }
+    section.callout { border: 1px solid #dfc483; padding: 0 1.25rem 1rem; border-radius: 1rem; background: #fffcf4; }
+    .button { display: inline-block; padding: .65rem 1rem; border-radius: .6rem; background: #8a2638; color: white; font-weight: 650; }
+    a:focus-visible { outline: 3px solid #ae7731; outline-offset: 4px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <p class="brand">❄ Secret Santa</p>
+      <h1>Política de privacidad</h1>
+      <p>Última actualización: 23 de noviembre de 2026</p>
+    </div>
+  </header>
+  <main class="wrap">
+    <p>Esta política describe cómo Secret Santa trata tus datos cuando usas la aplicación de amigo invisible o su bot de Telegram. Para cualquier consulta, puedes escribir en privado al responsable de la app, <a href="https://t.me/alvarospunk">Álvaro (@alvarospunk)</a>.</p>
+    <nav aria-label="Accesos de privacidad"><a href="#eliminar-cuenta">Solicitar la eliminación de mi cuenta</a></nav>
+
+    <h2>Qué datos utiliza Secret Santa</h2>
+    <ul>
+      <li><strong>Cuenta y acceso.</strong> Tu alias o nombre y un identificador de cuenta. Si eliges Google, se usa el identificador de Google y el correo verificado. Si eliges Telegram, se usa el identificador de tu cuenta de Telegram y el nombre facilitado por ese servicio. Cuando está habilitado el acceso por correo, usamos la dirección para verificarla mediante un código.</li>
+      <li><strong>Organización del sorteo.</strong> Nombre del grupo, participantes, invitaciones, asignaciones y estado de la entrega. Los organizadores pueden proporcionar un correo o alias de Telegram de una persona a la que desean invitar.</li>
+      <li><strong>Contenido que añades.</strong> Ideas de regalo, enlaces, fotos, preguntas anónimas y ofertas. Usamos estos datos para mostrar las cartas, gestionar avisos y mantener sincronizados el bot y la aplicación.</li>
+      <li><strong>Funcionamiento y seguridad.</strong> Usamos datos técnicos como la dirección IP para limitar algunos intentos de acceso y un identificador de instancia para coordinar el uso simultáneo del bot y la app. La app guarda la sesión y, cuando corresponde, la clave de recuperación del alias en el almacenamiento seguro del dispositivo.</li>
+    </ul>
+
+    <h2>Quién puede ver tus datos</h2>
+    <p>Los participantes ven los nombres necesarios para participar. El organizador gestiona el grupo, las fases del sorteo y las invitaciones. Una carta y sus fotos se muestran a su titular y, tras la entrega, a la persona asignada para regalarle. La persona que recibe una pregunta anónima ve el mensaje preparado para su entrega.</p>
+    <p>Cloudflare aloja el servicio y sus datos. Google participa cuando eliges su método de inicio de sesión. Telegram procesa las interacciones que realizas en el bot y aloja las fotos enviadas por ese canal. Si se usa el envío de correo, Resend lo procesa. Al abrir un enlace de regalo, se aplica la política del sitio al que accedes.</p>
+
+    <h2>Cómo protegemos y conservamos los datos</h2>
+    <p>La app se comunica con el servidor mediante HTTPS y el servidor cifra los datos de cuenta y sorteo que guarda. Las cuentas y los datos de los sorteos se conservan para poder volver a acceder a ellos y mantener el grupo disponible. Los códigos de acceso caducan. Las ofertas con fecha se eliminan después de que caduquen y las ofertas sin fecha se eliminan después de treinta días.</p>
+
+    <section id="eliminar-cuenta" class="callout">
+      <h2>Solicitar la eliminación de tu cuenta</h2>
+      <p>Envía un mensaje privado a Álvaro con el asunto «Eliminar mi cuenta de Secret Santa». Indica tu alias o nombre, el método de acceso y, si lo recuerdas, el nombre de uno de tus sorteos. Puedes iniciar la solicitud desde esta página aunque hayas desinstalado la app.</p>
+      <p>Verificaremos que eres titular de la cuenta antes de eliminarla junto con sus datos asociados, como el perfil, los accesos vinculados y el contenido de tu carta. Te confirmaremos el resultado e indicaremos cualquier dato que deba conservarse por una obligación legal o de seguridad. Nunca envíes contraseñas, códigos de inicio de sesión ni claves de recuperación.</p>
+      <a class="button" href="https://t.me/alvarospunk">Solicitar por mensaje privado</a>
+    </section>
+  </main>
+</body>
+</html>
